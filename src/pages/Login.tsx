@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { type FC, type FormEvent } from 'react';
 import { Link } from 'react-router-dom';
-import LoginImage from '@components/LoginImage';
+import { LoginImage } from '@components/atoms';
+import type { eventPropsIF } from '@/interfaces';
 
-export default function Login() {
-  const handleSubmit = (e: any) => {
+export const Login: FC<eventPropsIF> = () => {
+  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
   };
   return (
@@ -36,4 +37,4 @@ export default function Login() {
       </section>
     </>
   );
-}
+};

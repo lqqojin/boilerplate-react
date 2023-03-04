@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-export default function Navbar() {
+export const Navbar = () => {
   return (
     <header className="flex justify-between border-b border-gray-300 p-2">
       <Link to="/" className="flex items-center text-4xl text-shoppyBrand">
@@ -20,4 +20,4 @@ export default function Navbar() {
       </nav>
     </header>
   );
-}
+};

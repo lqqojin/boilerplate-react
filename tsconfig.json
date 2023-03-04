@@ -1,4 +1,5 @@
 {
+  "extends": "./tsconfig.paths.json",
   "compilerOptions": {
     "target": "ES2022",
     "lib": [
@@ -7,19 +8,6 @@
       "dom.iterable",
       "esnext"
     ],
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["src/*"],
-      "@api/*": ["src/api/*"],
-      "@assets/*": ["src/assets/*"],
-      "@components/*": ["src/components/*"],
-      "@constants/*": ["src/constants/*"],
-      "@hooks/*": ["src/hooks/*"],
-      "@pages/*": ["src/pages/*"],
-      "@stories/*": ["src/stories/*"],
-      "@types/*": ["src/types/*"],
-      "@utils/*": ["src/utils/*"]
-    },
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,

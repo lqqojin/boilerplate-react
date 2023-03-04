@@ -6,7 +6,7 @@ import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 import { RecoilRoot } from 'recoil';
 
 const queryClient = new QueryClient();
-function App() {
+export default function App() {
   return (
     <QueryClientProvider client={queryClient}>
       <RecoilRoot>
@@ -16,5 +16,3 @@ function App() {
     </QueryClientProvider>
   );
 }
-
-export default App;

@@ -13,7 +13,7 @@ module.exports = override(
     '@hooks': path.resolve(__dirname, 'src/hooks'),
     '@pages': path.resolve(__dirname, 'src/pages'),
     '@stories': path.resolve(__dirname, 'src/stories'),
-    '@types': path.resolve(__dirname, 'src/types'),
+    '@interfaces': path.resolve(__dirname, 'src/interfaces'),
     '@utils': path.resolve(__dirname, 'src/utils'),
   }),
 );

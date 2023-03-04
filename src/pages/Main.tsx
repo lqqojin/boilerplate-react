@@ -1,10 +1,11 @@
 import React from 'react';
-import Navbar from '@components/Navigation/Navbar';
+import { Navbar } from '@components/organisms';
+// import Navbar from '@components';
 
-export default function Main() {
+export const Main = () => {
   return (
-    <div>
+    <>
       <Navbar />
-    </div>
+    </>
   );
-}
+};

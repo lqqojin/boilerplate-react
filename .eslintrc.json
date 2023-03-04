@@ -70,17 +70,18 @@
       "react/react-in-jsx-scope": "off",
       "camelcase": "error",
       "spaced-comment": "error",
-      "no-duplicate-imports": "error",
+//      "no-duplicate-imports": "error",
+      "import/no-duplicates": ["error", {"prefer-inline": true}],
       "no-console": "off",
       "no-debugger": "warn",
       "prettier/prettier": "error",
       "react/self-closing-comp": ["error", { "component": true, "html": true }],
-      "@typescript-eslint/consistent-type-imports": [
-        "error",
-        {
-          "prefer": "type-imports"
-        }
-      ],
+//      "@typescript-eslint/consistent-type-imports": [
+//        "error",
+//        {
+//          "prefer": "type-imports"
+//        }
+//      ],
       "no-restricted-imports": [
         "error",
         {
